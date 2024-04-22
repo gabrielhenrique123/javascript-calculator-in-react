@@ -1,0 +1,114 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
+
+body {
+  color: #fff;
+  background-color: #c2d4f7;
+  /* background: url('https://images.unsplash.com/photo-1542216172-f356fdd22653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1325&q=80');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+div#calculator {
+  background-color: #103377;
+  margin: auto;
+  margin-top: 100px;
+  border : 3px solid #5f7fb7;
+  border-radius: 10px;
+  box-shadow: 0px 1px 6px 6px #5f7fb7 inset;
+  padding: 15px;
+  align-self: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 150px;
+  color: #5f7fb7;;
+  font-family: 'Indie Flower', cursive;
+  /* opacity: 0.6; */
+  font-size: 2.9rem;
+}
+
+button,a {
+  margin: 2px;
+  font-family: 'Jura', sans-serif;
+  float: left;
+}
+
+
+#clear {
+  padding-left: 36px;
+  padding-right: 35px;
+  margin-right: 2px;
+}
+
+#equals {
+  margin-bottom: -52px;
+  padding : 34px 14px 34px 14px;
+  margin-left: 2px;
+}
+
+#subtract {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#add {
+  padding-left: 14px;
+  padding-right: 14px;
+  }
+
+#decimal {
+  padding-left: 19px;
+  padding-right: 20px;
+}
+
+#one {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+#zero {
+  padding-left: 16px;
+  padding-right: 15px;
+}
+
+#deleteOne {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#exepretion,#display {
+  margin: 0px 2px;
+  padding: 1px 5px;
+  color : #000;
+  height: auto;
+  text-align: end;
+  font-weight: bold;
+  background-color: #c2d4f7;
+  font-family: 'Jura', sans-serif;
+}
+
+#display {
+  margin-bottom: 10px;
+  font-size: 30px;
+  max-width: 190px;
+  word-wrap: normal;
+}
+
+#exepretion {
+  font-size: 16px;
+  /* margin-bottom: 10px; */
+  max-width: 190px;
+  word-wrap: normal;
+}
+
+footer {
+  font-family: 'Jura', sans-serif;
+  font-size: 12px;
+  color: #103377;
+  margin-top: 50px;
+}
+
+.far {
+  font-size: 8px;
+}
